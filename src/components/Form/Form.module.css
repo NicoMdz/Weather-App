@@ -15,6 +15,10 @@
     border-radius: 1rem;
 }
 
+option {
+    color: black;
+}
+
 .field ::placeholder {
     color: var(--white);
 }
