@@ -48,7 +48,7 @@ export default function useWeather() {
         console.log(result)
 
         /*   Type Guard  
-        const {data: weatherResult} = await axios(weatherUrl)
+        const {data: weatherResult} = await axios(weatherUrl) 
         const result = isWeatherResponse(weatherResult)
         if (result) {
             console.log("hols")
